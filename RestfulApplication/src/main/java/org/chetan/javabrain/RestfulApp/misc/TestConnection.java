@@ -9,9 +9,9 @@ public class TestConnection
 	{
 		try
 		{
-			System.out.println("Trying to init Con");
+			System.out.println("initialising Conection");
 			con= ConnectionDao.getConnection();
-			System.out.println("Got Con");
+			System.out.println("Connection Established ");
 		}
 		catch (Exception e)
 		{
