@@ -73,7 +73,7 @@ public class WebServiceTester  {
 //      System.out.println("Test case name: testGetUser, Result: " + result );
 //   }
    //Test: Update User of id 1
-   //Test: Check if result is success XML.
+   //Test: Hiee Tester.
    private void testUpdateUser(){
       Form form = new Form();
       form.param("id", "1");
