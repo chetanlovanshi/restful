@@ -20,6 +20,6 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
-        return "Got the resource!";
+        return "Demo project :: got Resource   full of conflicts!";
     }
 }
