@@ -1,7 +1,7 @@
 package org.chetan.javabrain.RestfulApp.resources;
 
 import java.util.List;
-
+// edited
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import org.chetan.javabrain.RestfulApp.model.Message;
@@ -65,7 +65,7 @@ public class MessageResource
 	{
 		return messageservice.getMessage(messageid);
 	}
-
+// editing
 	@DELETE
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/{messageid}")
