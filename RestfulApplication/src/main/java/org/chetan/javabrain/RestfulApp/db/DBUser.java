@@ -51,7 +51,7 @@ public class DBUser
 			System.out.println("Fetch all data");
 			connection=ConnectionDao.getConnection();
 			ps = connection.prepareStatement("select * from usertable ");
-			System.out.println("Got Connection : Fetching Query");
+			System.out.println("Connection Established : Fetching Query");
 			
 			rs = ps.executeQuery();
 			if (rs!=null)
